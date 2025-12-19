@@ -1,38 +1,42 @@
-/* SeLECTOR GENERAL, UNIVERSAL = * */
+
 *{
-
-    margin: 0;
-    padding: 0;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* SELECTOR DE ETIQUETA */
 body{
-    background-color: #232323;
-    color: #fff;
+  background-color: #232323;
 }
 
-/* SELECTOR DE CLASE */
-.btn{
-    background-color: aquamarine;
-    padding: 15px;
-}
-/* SELECTOR DE ID */
-
-#social-icons{
-    background-color: rgba(255, 68, 0, 0.705);
+h1, h2, h3, h4, h5, h6, p, a{
+  color: white;
+  text-decoration: none;
 }
 
-
-/* SELECTORES AVANZADOS */
-#social-icons .btn{
-    border-radius: 18px;
+.text-style{
+  font-family: monospace;
+  font-size: 1.8rem; /* rem: 16px */
+  font-style: oblique;
+  font-weight: bolder;
 }
+.purple{color:blueviolet}
+.orange{color: orange;}
+.celeste{color: aqua}
 
-/* PSEUDOCLASE */
-.btn:hover{
-    background-color: lueviolet;
-    color: #fff;
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+
+.box{
+  display: inline-block;
+  /* width: 172px; 
+  height: 38px; */
+  background-color: blueviolet;
+  padding: 10px 50px; 
+  /* padding-right: 50%; */
+  margin: 30px auto 0px auto;
+  text-align: center;
+  border: 6px solid white;
+  border-radius: 10px;
 }
-
-

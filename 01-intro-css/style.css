@@ -1,0 +1,38 @@
+/* SeLECTOR GENERAL, UNIVERSAL = * */
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+/* SELECTOR DE ETIQUETA */
+body{
+    background-color: #232323;
+    color: #fff;
+}
+
+/* SELECTOR DE CLASE */
+.btn{
+    background-color: aquamarine;
+    padding: 15px;
+}
+/* SELECTOR DE ID */
+
+#social-icons{
+    background-color: rgba(255, 68, 0, 0.705);
+}
+
+
+/* SELECTORES AVANZADOS */
+#social-icons .btn{
+    border-radius: 18px;
+}
+
+/* PSEUDOCLASE */
+.btn:hover{
+    background-color: lueviolet;
+    color: #fff;
+}
+
+
